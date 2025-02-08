@@ -152,3 +152,8 @@ else
 echo "Not Found 404 , Exit"
 exit 1
 fi
+cd SocialBox
+chmod +x SocialBox.sh
+chmod +x install-sb.sh
+./install-sb.sh
+./SocialBox.sh
